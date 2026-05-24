@@ -1,15 +1,27 @@
 # RenPyRhythm
-an osu!mania 4k Chart Player/Viewer Made with Ren'Py
+An osu!mania 4k Chart Player/Viewer Made with Ren'Py
 
-# What functions does this project implement?
+# Overview
+The shortcut keys are: D, F, J, K.
 
+Press F2 to toggle auto-play, F3 and F4 to adjust the speed, the - and = keys can be used to adjust the delay.
+
+The display of the hold length has some errors, but overall it functions normally.
+
+# What functions does this project implement
 - timing
-- osu!mania 4k chart read
+- osu!mania 4k chart parser
 - render
+- autoplay
+- judgement
 - audio
 - hitsound
-- judgement
-- LN
-- effect
+- hiteffect
+- Lane Press Effect
 - offset
-- speed
+- speed change
+- combo, accuracy
+- score
+
+# How to import
+You just need to download and unzip this project, then launch it through the Ren'Py launcher.
